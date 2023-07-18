@@ -1,0 +1,34 @@
+WebDriver driver=new chromeDriver();
+driver.get("https://www.hashtag-ca.com/careers/apply?jobCode=QAE001");
+
+webElement name=driver.findElement(by.name("//input[@name='name']"));
+name.sendKeys("AAAA");
+
+webElement email=driver.findElement(by.name("//input[@name='email']"));
+email.sendKeys("AAA@gmail.com");
+
+webElement phone=driver.findElement(by.name("//input[@name='phone']"));
+phone.sendKeys("1234567890");
+
+webElement resume=driver.findElement(by.name("//input[@id='inputFile']"));
+resume.sendKeys("path of file");
+
+webElement ok=driver.findElement(by.name("APPLY NOW"));
+ok.click();
+
+select x=new select(driver);
+webElement services=driver.findElement(by.linkText("services"));
+services.selectByVisibleText("Wordpress Development");
+services.click();
+
+webElement shopify=driver.findElement(by.linkText("Shopify"));
+shopify.click();
+
+webElement blog=driver.findElement(by.linkText("Blog"));
+blog.click();
+
+webElement careers=driver.findElement(by.linkText("careers"));
+careers.click();
+
+
+driver.close();

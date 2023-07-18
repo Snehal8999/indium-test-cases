@@ -1,0 +1,49 @@
+UI test cases
+1) Font of text should be visible
+2) All labels and text boxes should be visible.
+3) Application should be responsive.
+4) Images and text should be match with application.
+5) When we move curser then that content should be highlight.
+
+
+Functional test cases:
+1) Page should be nevigate properly.
+
+2) In name field do not enter digits or special symbols.
+
+3) In name field character should be enter upto 20.(Length limit should be provide)
+
+4) All header options should be work properly and when click nevigate to proper page.
+
+5) When click on services drop down list should be visible and all the options should be working.
+
+6) If we click on any option in services page should be nevigate.
+
+7) In email id field should contains digits, characters and also special symbols.
+
+8) Phone fiels should exists only digits and also only 10 digit limit.
+
+9) Resume field when we click on browse button pge should be nevigate to our system.
+
+10) It will take only excel, pdf or word file.
+
+11) Description field should be accept all text.
+
+12) When we click on apply now button it should be nevigate to another page.
+
+13) If any field is blank it should reflect error.
+
+14) When any error is reflect it should be clear.
+
+15) When data is store it should be give proper message of data storing.
+
+16) Footer menu are also nevigate.
+
+17)If we click on mail id then it will redirect to our mail box.
+
+18) If we click on phone no then it will redirect to call.
+
+19) If we click on facebook logo, linkedin logo and instagram logo it should be nevigate.
+
+19) If we click on lets speak it should be redirect to location.
+
